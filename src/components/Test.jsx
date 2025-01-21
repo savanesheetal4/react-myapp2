@@ -1,12 +1,12 @@
 import { useState } from "react"
 function Test(){
-let [counter,updateCounter]=useState(0)
+let [counter,updateName]=useState(0)
     
     return(
         <div>
-          <h2>Counter variable value is:{counter}</h2>  
-           <button onClick={()=>updateCounter(++counter)}>Increment</button>
-           <button onClick={()=>updateCounter(--counter)}>Decrement</button>
+          <h2>Name of student is:{counter}</h2>  
+          
+           <button onClick={()=>updateName("Sheetal S Savane")}>State</button>
 
         </div>
     )
