@@ -1,6 +1,6 @@
 import { useState } from "react"
 function Test(){
-let [counter,updateName]=useState(0)
+let [counter,updateName]=useState("Sheetal")
     
     return(
         <div>

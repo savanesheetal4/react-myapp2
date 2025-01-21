@@ -4,7 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 // import Table from './components/Table'
 // import Image from './components/Image'
-import Test from './components/Test'
+// import Test from './components/Test'
+import Test1 from './components/Test1'
 
 
 
@@ -19,8 +20,8 @@ function App() {
        {/* <Table/> */}
        {/* <Image/> */}
        {/* <Test empName="Sheetal Savane" empAddress="Mumbai" stdId="1003"/> */}
-      <Test/>
-       
+      {/* <Test/> */}
+       <Test1/>
        
         
       {/* <marquee>Welcome to VPPCOE</marquee>
