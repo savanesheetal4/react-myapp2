@@ -1,10 +1,13 @@
+import { useState } from "react"
 function Test(){
-    function display(){
-        alert("Welcome to event concept in ReactJs")
-    }
+let [counter,updateCounter]=useState(0)
+    
     return(
         <div>
-            <button onDoubleClick={display}>Click me</button>
+          <h2>Counter variable value is:{counter}</h2>  
+           <button onClick={()=>updateCounter(++counter)}>Increment</button>
+           <button onClick={()=>updateCounter(--counter)}>Decrement</button>
+
         </div>
     )
 }

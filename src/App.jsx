@@ -18,8 +18,8 @@ function App() {
       <div>
        {/* <Table/> */}
        {/* <Image/> */}
-       <Test empName="Sheetal Savane" empAddress="Mumbai" stdId="1003"/>
-      
+       {/* <Test empName="Sheetal Savane" empAddress="Mumbai" stdId="1003"/> */}
+      <Test/>
        
        
         
